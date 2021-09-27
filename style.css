@@ -34,20 +34,38 @@ li a {
     text-decoration: none;
 }
 
-li a:hover:not(.active) {
+li a:hover {
     background-color: #111;
+    color: whitesmoke;
 }
 
 .active {
     background-color: #04AA6D;
+    color: whitesmoke;
 }
 
-article {
-    width: 500px;
+.aboutme {
+    width: 35%;
     text-align: justify;
-    padding-left: 200px;
+    padding-left: 100px;
     padding-top: 20px;
-    float: left;
+    float:left;
+}
+
+.pinturas {
+    width: 25%;
+    text-align: justify;
+    padding-left: 80px;
+    padding-top: 20px;
+    float:left;
+}
+
+.desenhos {
+    width: 25%;
+    text-align: justify;
+    padding-left: 80px;
+    padding-top: 20px;
+    float:left;
 }
 
 .homeimg {
@@ -55,8 +73,15 @@ article {
     padding-left: 100px;
 }
 
+.imagens {
+    float: left;
+    padding: 40px 30px;
+}
+
+
 /*
 footer {
+    display: block;
     background-color: #333;
     padding: 10px;
     text-align: center;
