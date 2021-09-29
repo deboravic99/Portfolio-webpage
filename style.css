@@ -52,6 +52,11 @@ li a:hover {
     float:left;
 }
 
+article {
+    float:left;
+    padding: 40px 30px;
+}
+
 .pinturas {
     width: 300px;
     text-align: justify;
@@ -66,16 +71,6 @@ li a:hover {
     padding-left: 100px;
     padding-top: 20px;
     float:left;
-}
-
-.homeimg {
-    float:left;
-    padding-left: 100px;
-}
-
-.imagens {
-    float: left;
-    padding: 40px 30px;
 }
 
 
